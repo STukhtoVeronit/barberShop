@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Catalog</title>
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-navigation">
+            <a class="main-header-logo" href="index.html">
+                <img src="img/logo.svg" width="368" height="153" alt="logo of barbershop Borodinski">
+            </a>
+            <ul class="site-navigation">
+                <li><a href="info.html">Info</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="price.html">Price</a></li>
+                <li class="site-navagation-cerrent"><a href="catalog.html">Catalog</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+            <ul class="user-navigation">
+                <li class="login-link">Exit</li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <h1 class="page-title">Care products</h1>
+        <ul class="breadcrumbs">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="catalog.html">Catalog</a></li>
+            <li class="breadcrumbs-current">Care products</li>
+        </ul>
+        <section class="filters">
+            <h2 class="visually-hidden">Products filters</h2>
+            <!--TODO: form with filters needed-->
+        </section>
+        <section class="filters">
+            <h2 class="visually-hidden">List of care products</h2>
+            <!--TODO: form with filters needed-->
+            <form action="#" method="get" class="filter">
+                <fieldset>
+                    <legend>Manufactures:</legend>
+                    <ul>
+                        <li>
+                            <input type="checkbox" name="bastard-of-california" id="filter-bastard-of-california">
+                            <label for="filter-bastard-of-california">Bastard of California</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="mr-nasty" id="filter-mr-nasty">
+                            <label for="filter-mr-nasty">Bastard of California</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="savage" id="filter-savage">
+                            <label for="filter-savage">Savage</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset>
+                    <legend>Group of products:</legend>
+                    <ul>
+                        <li>
+                            <input type="radio" name="product-group" value="shaving-accessories" id="filter-shaving-accessories">
+                            <label for="filter-shaving-accessories">Shaving accessories</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="product-group" value="care-products" id="filter-care-products">
+                            <label for="filter-care-products">Care products</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="product-group" value="accessories" id="filter-accessories">
+                            <label for="filter-accessories">Accessories</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <button type="submit">Show</button>
+            </form>
+            <ul class="catalog-list">
+                <li class="catalog-item">
+                    <h3>
+                        <a href="catalog-item.html">
+                            <span class="catalog-category">Set for traveling</span>
+                            <span class="catalog-category">"Bastard of California"</span>
+                        </a>
+                    </h3>
+                    <p>
+                        <img src="img/product-1.jpg" alt="set for traveling" width="220" height="165">
+                    </p>
+                    <p>
+                        <b>2 900 P</b>
+                        <a href="#" class="button"></a>
+                    </p>
+                </li>
+                <li class="catalog-item">
+                    <h3>
+                        <a href="catalog-item.html">
+                            <span class="catalog-category">Set for traveling</span>
+                            <span class="catalog-category">"Bastard of California"</span>
+                        </a>
+                    </h3>
+                    <p>
+                        <img src="img/product-1.jpg" alt="set for traveling" width="220" height="165">
+                    </p>
+                    <p>
+                        <b>2 900 P</b>
+                        <a href="#" class="button"></a>
+                    </p>
+                </li>
+                <li class="catalog-item">
+                    <h3>
+                        <a href="catalog-item.html">
+                            <span class="catalog-category">Set for traveling</span>
+                            <span class="catalog-category">"Bastard of California"</span>
+                        </a>
+                    </h3>
+                    <p>
+                        <img src="img/product-1.jpg" alt="set for traveling" width="220" height="165">
+                    </p>
+                    <p>
+                        <b>2 900 P</b>
+                        <a href="#" class="button"></a>
+                    </p>
+                </li>
+                <li class="catalog-item">
+                    <h3>
+                        <a href="catalog-item.html">
+                            <span class="catalog-category">Set for traveling</span>
+                            <span class="catalog-category">"Bastard of California"</span>
+                        </a>
+                    </h3>
+                    <p>
+                        <img src="img/product-1.jpg" alt="set for traveling" width="220" height="165">
+                    </p>
+                    <p>
+                        <b>2 900 P</b>
+                        <a href="#" class="button"></a>
+                    </p>
+                </li>
+            </ul>
+            <ul class="pagination-list">
+                <li class="pagination-item"><a href="#">1</a></li>
+                <li class="pagination-item pagination-item-current"><a href="#">2</a></li>
+                <li class="pagination-item"><a href="#">3</a></li>
+                <li class="pagination-item"><a href="#">4</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>
+            BarberShop "Borodinski"<br>
+            Address: SomeWhere<br>
+            We on map<br>
+            Phone: + 7 (812) 666-82-66
+        </p>
+        <div class="footer-social">
+            <b>Check out social accounts</b>
+            <ul>
+                <li><a class="social-button" href="#">Facebook</a></li>
+                <li><a class="social-button" href="#">Instagram</a></li>
+                <li><a class="social-button" href="#">Telegramm</a></li>
+            </ul>
+        </div>
+        <p class="footer-copyright">
+            <b>Develop by:</b>
+            <a href="#" class="button">ST</a>
+        </p>
+    </footer>
+
+    <section class="modal modal-login">
+        <h2>Profile</h2>
+        <p>Enter yor login and password</p>
+        <span class="modal-close">x</span>
+    </section>
+</body>
+</html>
