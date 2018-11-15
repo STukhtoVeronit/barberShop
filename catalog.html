@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Catalog</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
+<body class="inner-page">
     <header class="main-header">
         <nav class="main-navigation">
             <a class="main-header-logo" href="index.html">
@@ -42,7 +43,7 @@
                             <label for="filter-bastard-of-california">Bastard of California</label>
                         </li>
                         <li class="filter-option">
-                            <input type="checkbox" class="visually-hidden filter-input filter-input-checkbox" name="mr-nasty" id="filter-mr-nasty">
+                            <input type="checkbox" class="visually-hidden filter-input filter-input-checkbox" name="mr-nasty" id="filter-mr-nasty" disabled>
                             <label for="filter-mr-nasty">Bastard of California</label>
                         </li>
                         <li class="filter-option">
@@ -68,7 +69,7 @@
                         </li>
                     </ul>
                 </fieldset>
-                <button type="submit">Show</button>
+                <button type="submit" class="button">Show</button>
             </form>
 
         </section>
@@ -87,7 +88,7 @@
                     <p>
                         <img src="img/product-1.jpg" alt="set for traveling" width="220" height="165">
                     </p>
-                    <p>
+                    <p class="catalog-item-price">
                         <b>2 900 P</b>
                         <a href="#" class="button"></a>
                     </p>
@@ -102,9 +103,24 @@
                     <p>
                         <img src="img/product-1.jpg" alt="set for traveling" width="220" height="165">
                     </p>
-                    <p>
+                    <p class="catalog-item-price">
                         <b>2 900 P</b>
-                        <a href="#" class="button"></a>
+                        <a href="#" class="button">Buy</a>
+                    </p>
+                </li>
+                <li class="catalog-item">
+                    <h3>
+                        <a href="catalog-item.html">
+                            <span class="catalog-category">Set for traveling</span>
+                            <span class="catalog-category">"Bastard of California"</span>
+                        </a>
+                    </h3>
+                    <p>
+                        <img src="img/product-1.jpg" alt="set for traveling" width="220" height="165">
+                    </p>
+                    <p class="catalog-item-price">
+                        <b>2 900 P</b>
+                        <a href="#" class="button">Buy</a>
                     </p>
                 </li>
                 <li class="catalog-item">
@@ -119,22 +135,7 @@
                     </p>
                     <p>
                         <b>2 900 P</b>
-                        <a href="#" class="button"></a>
-                    </p>
-                </li>
-                <li class="catalog-item">
-                    <h3>
-                        <a href="catalog-item.html">
-                            <span class="catalog-category">Set for traveling</span>
-                            <span class="catalog-category">"Bastard of California"</span>
-                        </a>
-                    </h3>
-                    <p>
-                        <img src="img/product-1.jpg" alt="set for traveling" width="220" height="165">
-                    </p>
-                    <p>
-                        <b>2 900 P</b>
-                        <a href="#" class="button"></a>
+                        <a href="#" class="button">Buy</a>
                     </p>
                 </li>
             </ul>
